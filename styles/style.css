@@ -1,0 +1,49 @@
+header {
+  background-image: url('../media/final-bg.jpg');
+  
+  background-size: cover; 
+  background-position: center; 
+  
+}
+
+.heading-container{
+  background-color: rgba(0,0,0,0.2);
+}
+
+.heading-container h1{
+  font-style: italic;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0);
+  
+}
+
+#action-block{
+  display: none;
+}
+
+#result-text{
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aqua;
+  font-style: italic;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0);
+}
+
+.chosen-images img{
+  width: 10rem; 
+  height: 10rem; 
+}
+
+#refresh-btn{
+  display:none;
+}
+
+@media (min-width: 992px) {
+  .chosen-images img{
+    width: 20rem; 
+    height: 20rem; 
+  }
+  
+}
